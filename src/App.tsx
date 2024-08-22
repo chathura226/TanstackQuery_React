@@ -1,10 +1,14 @@
 import Todos from "./components/Todos.tsx"
+import Projects from "./components/Projects.tsx";
 
 function App() {
 
 
   return (
-    <Todos />
+      <>
+      <Projects />
+  <Todos />
+      </>
   )
 }
 
