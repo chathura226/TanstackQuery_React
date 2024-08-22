@@ -1,10 +1,10 @@
-import Todo from "./components/Todo"
+import Todos from "./components/Todos.tsx"
 
 function App() {
 
 
   return (
-    <Todo />
+    <Todos />
   )
 }
 
