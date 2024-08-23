@@ -1,5 +1,6 @@
 import Todos from "./components/Todos.tsx"
 import Projects from "./components/Projects.tsx";
+import Products from "./components/Products.tsx";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
       <>
       <Projects />
   <Todos />
+        <Products />
       </>
   )
 }
